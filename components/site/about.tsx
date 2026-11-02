@@ -8,7 +8,7 @@ export function About() {
     <section id="about" className="relative py-24 md:py-34 scroll-mt-14">
       <div className="mx-auto max-w-5xl px-6">
         <p className="text-xs text-white/50"> Who Am I</p>
-        <h2 className="mt-4 mb-12 md:mb-20 text-4xl font-medium tracking-tighter text-white sm:text-5xl md:text-6xl">
+        <h2 className="mt-4 mb-12 md:mb-20 text-2xl font-medium tracking-tighter text-white sm:text-3xl md:text-6xl">
           <FancyText
             className="text-white/20"
             fillClassName="text-white"

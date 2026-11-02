@@ -12,7 +12,7 @@ export function Hero() {
         </div>
 
         <div className="mt-8 text-center">
-          <h1 className="text-5xl font-medium leading-[0.95] tracking-tighter text-white sm:text-7xl md:text-8xl">
+          <h1 className="text-3xl font-medium leading-[0.95] tracking-tighter text-white sm:text-5xl md:text-6xl">
             <FancyText
               className='text-white/20'
               fillClassName='text-white'
