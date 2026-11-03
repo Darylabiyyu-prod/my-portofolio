@@ -7,7 +7,7 @@ export function Contact() {
     <section id="contact" className="relative overflow-hidden">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -bottom-40 left-1/2 h-96 w-[70rem] max-w-[160vw] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(255,255,255,0.14),transparent)]"
+        className="pointer-events-none absolute -bottom-40 left-1/2 h-96 w-280 max-w-[160vw] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,rgba(255,255,255,0.14),transparent)]"
       />
 
       <div className="relative mx-auto max-w-6xl px-6 pt-24 text-center md:pt-32">
@@ -22,7 +22,7 @@ export function Contact() {
           >
             {"Let's Make It"}
           </FancyText>
-          
+
           <span className="font-serif font-normal italic tracking-tight text-white/50">
             Happen
           </span>
@@ -38,10 +38,10 @@ export function Contact() {
           rel="noopener noreferrer"
           className="liquid-glass group mt-10 inline-flex w-fit items-center gap-3 self-center rounded-full border-white/25 bg-black/40 py-2 pl-2.5 pr-6 text-sm font-medium text-white transition-all duration-300 ease-out hover:-translate-y-1 hover:border-white/50 hover:bg-white/15 hover:shadow-[inset_0_1px_1px_rgb(255_255_255/0.45),0_20px_60px_-12px_rgb(0_0_0/0.8),0_0_70px_6px_rgb(255_255_255/0.22)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white active:translate-y-0"
         >
-          <span className="flex size-9 items-center justify-center rounded-full border border-white/15 bg-white/[0.03] text-white transition-transform group-hover:scale-110">
-            <svg className="size-4 fill-none stroke-current stroke-[2]" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-           </svg>
+          <span className="flex size-9 items-center justify-center rounded-full border border-white/15 bg-white/3 text-white transition-transform group-hover:scale-110">
+            <svg className="size-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
           </span>
           Get in Touch
         </a>

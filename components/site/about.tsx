@@ -18,14 +18,14 @@ export function About() {
           >
             Beyond Boundaries
           </FancyText>{' '}
-          <span className="font-[family-name:var(--font-serif-display)] font-normal italic tracking-tight text-white/50">
+          <span className="font-(family-name:--font-serif-display) font-normal italic tracking-tight text-white/50">
             since 2023
           </span>
         </h2>
 
         <div className="mt-12 grid gap-10 lg:grid-cols-[minmax(0,24rem)_1fr] lg:gap-16">
           <div className="flex flex-col gap-3">
-            <div className="relative aspect-[374/414] overflow-hidden rounded-3xl border border-white/10 bg-black">
+            <div className="relative aspect-374/414 overflow-hidden rounded-3xl border border-white/10 bg-black">
               <Image
                 src="/images/about-portrait.png"
                 alt="Black and white portrait of Daryl Abiyyu standing between concrete walls"
@@ -46,7 +46,7 @@ export function About() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-center justify-between rounded-full border border-white/10 bg-white/[0.03] px-5 py-3 text-xs font-medium text-white backdrop-blur transition-colors hover:bg-white/10"
+                  className="group flex items-center justify-between rounded-full border border-white/10 bg-white/3 px-5 py-3 text-xs font-medium text-white backdrop-blur transition-colors hover:bg-white/10"
                 >
                   {link.label}
                   <ArrowUpRight className="size-3.5 text-white/50 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-white" />
